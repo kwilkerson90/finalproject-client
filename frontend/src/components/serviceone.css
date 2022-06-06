@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f3f3;
+  }
+
+.Serviceone {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+section {
+    margin: 2rem 0 1rem 0;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.App {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    text-align: center;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    background-color: rgb(240, 130, 167);
+    color: black;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    border-radius: 12px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(240, 130, 167);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.nutrients ul {
+    display: flex;
+    width: 35rem;
+    justify-content: space-evenly;
+}
+
+ul {
+    list-style: none;
+}
+
+.meals {
+    display: flex;
+}
+
+img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin: 0 1rem;
+    max-width: 18rem;
+    box-shadow: 0 4px 8px 2px rgba(77, 77, 77, 0.15);
+    border-radius: 10%;
+}
+
+.instructions {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+a {
+    text-decoration: none;
+    background-color: palevioletred;
+    color: black;
+    width: fit-content;
+    padding: 0.5rem 1rem;
+}
+
+a:hover {
+    cursor: pointer;
+    background-color: hotpink;
+}
+
+@media only screen and (max-width: 550px) {
+    .meals {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nutrients ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+/* body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+} */
+
+body {
+    background-color: whitesmoke;
+}
